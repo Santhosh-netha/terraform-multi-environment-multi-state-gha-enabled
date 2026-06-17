@@ -9,9 +9,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "vivek-234121221-rrn"
-    key            = "envs/dev/terraform.tfstate"
-    region         = "us-east-1"
+    bucket         = "santhosh-505460-21"
+    key            = "envs/gha-dev/terraform.tfstate"
+    region         = "ap-northeast-1"
     encrypt        = true
     dynamodb_table = "tfstate-lock"
   }
